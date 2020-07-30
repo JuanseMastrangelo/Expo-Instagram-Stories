@@ -1,0 +1,31 @@
+{
+  "name": "expo-instagram-stories",
+  "version": "1.0.0",
+  "scripts": {
+      "start": "node node_modules/react-native/local-cli/cli.js start",
+      "test": "jest"
+  },
+  "description": "A Expo React Native Librarie clone of instagram stories",
+  "main": "src/index.js",
+  "repository": {
+      "type": "git",
+      "url": "git+https://github.com/JuanseMastrangelo/Expo-Instagram-Stories.git"
+  },
+  "keywords": [
+      "slideshow",
+      "slider",
+      "timed-slideshow",
+      "react-native",
+      "android",
+      "ios",
+      "images",
+      "animation",
+      "animated"
+  ],
+  "author": "Juanse Mastrangelo",
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/JuanseMastrangelo/Expo-Instagram-Stories/issues"
+  },
+  "homepage": "https://github.com/JuanseMastrangelo/Expo-Instagram-Stories#readme"
+}
