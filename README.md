@@ -1,6 +1,7 @@
 # Expo Instagram Stories
 
-A Javascript slideshow component for React-Native (Android and iOS).
+A Javascript slideshow image/video component for React-Native (Android and iOS).
+
 
 ###### Original Concept
 
