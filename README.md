@@ -1,72 +1,11 @@
-# React-Native-Timed-Slideshow
+# Expo Instagram Stories
 
 A Javascript slideshow component for React-Native (Android and iOS).
-React-Native-Timed-Slideshow, as the name suggests, is a Slideshow component with timed animation. It uses Animated library from React-Native, with native driver (only native animations).
 
 ###### Original Concept
 
 [![Original Concept](https://media.giphy.com/media/13PeRgYf018hySlup7/giphy.gif)](https://cdn.dribbble.com/users/4605/videos/2645/fordribbbs.mp4)
 
-###### My Component
-
-![demo](./demo.gif)
-
-## Getting Started
-
--   [Installation](#installation)
--   [Basic Usage](#basic-usage)
--   [Api](#api)
-    -   [Properties](#properties)
-    -   [Items Properties](#items-properties)
--   [Image Wrapper](#image-wrapper)
-    -   [Usage](#usage)
-    -   [Properties](#properties-1)
--   [Acknowledgement](#acknowledgement)
--   [License](#license)
-
-## Installation
-
-```bash
-npm install react-native-timed-slideshow --save
-```
-
-## Basic Usage
-
-```javascript
-import TimedSlideshow from 'react-native-timed-slideshow';
-```
-
-```javascript
-	render() {
-		const items = [
-			{
-				uri: "http://www.lovethemountains.co.uk/wp-content/uploads/2017/05/New-Outdoor-Sports-and-Music-Festival-For-Wales-4.jpg",
-				title: "Michael Malik",
-				text: "Minnesota, USA",
-			},
-			{
-				uri: "http://blog.adrenaline-hunter.com/wp-content/uploads/2018/05/bungee-jumping-barcelona-1680x980.jpg",
-				title: "Victor Fallon",
-				text: "Val di Sole, Italy",
-				duration: 3000
-			},
-			{
-				uri: "https://greatist.com/sites/default/files/Running_Mountain.jpg",
-				title: "Mary Gomes",
-				text: "Alps",
-				fullWidth: true
-			}
-		]
-
-		return (
-			<TimedSlideshow
-				items={items}
-			/>
-		);
-	}
-```
-
-## API
 
 ### Properties
 
@@ -111,8 +50,13 @@ The Image-Wrapper is a sub-component from Timed-Slideshow, it controls each imag
 
 ### Usage
 
+
+`
+npm install expo-instagram-stories --save
+`
+
 ```javascript
-import { ImageWrapper } from 'react-native-timed-slideshow';
+import { ImageWrapper } from 'expo-instagram-stories';
 ```
 
 ```javascript
@@ -131,10 +75,6 @@ import { ImageWrapper } from 'react-native-timed-slideshow';
 | extraSpacing | number        | Extra spacing of the images animation                                                                                                                                                                                 |
 | fullWidth    | boolean       | The individual slide width, if true the Image.getSize from React-Native will calculate the image's full width (later calculated to keep the screens ratio), and if true it will override the extraSpacing if it's set |
 | direction    | string        | The individual slide direction animation, Values are "even", "odd", "left", "right"                                                                                                                                   |
-
-## Acknowledgement
-
-[Eric Hoffman](https://dribbble.com/shots/5595078-Santa-Cruz-Bike-Picker) who designed the concept on dribble for [Reform Collective](https://dribbble.com/ReformCollective) and who inspired me to create the component and challenge my knowledge on React-Native and animations in the framework.
 
 ## License
 
